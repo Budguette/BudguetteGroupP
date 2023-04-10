@@ -9,4 +9,5 @@
     <string name="apple">Continue with Apple</string>
     <string name="app">Budguette</string>
     <string name="forgot">Forgot password?</string>
+    <string name="new_activity">New Activity</string>
 </resources>

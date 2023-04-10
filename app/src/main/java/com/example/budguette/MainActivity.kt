@@ -10,6 +10,8 @@ import android.widget.Toast
 import com.example.budguette.databinding.ActivityMainBinding
 import com.google.android.material.button.MaterialButton
 import android.view.View
+import com.google.android.material.bottomnavigation.BottomNavigationView
+import android.content.Intent
 
 
 class MainActivity : AppCompatActivity() {
@@ -31,6 +33,11 @@ class MainActivity : AppCompatActivity() {
                 Toast.makeText(this, "Login Successful!", Toast.LENGTH_SHORT).show()
             } else {
                 Toast.makeText(this, "Login Failed!", Toast.LENGTH_SHORT).show()
+            }
+                val button= findViewById<Button>(R.id.button)
+                button.setOnClickListener {
+                    val intent = Intent(this, MainActivity2::class.java)
+                    startActivity(intent)
             }
         })
     }
