@@ -129,9 +129,11 @@ large scale app with a clear focus
         
 
 ## Wireframes
+<img src="https://i.ibb.co/kJpxRfL/IMG-1140.png" alt="IMG-1140" border="0">
+<img src="https://i.ibb.co/M7ZD7JR/IMG-1141.jpg" alt="IMG-1141" border="0">
 
-![Wireframes] (https://ibb.co/WtZGnsy)
 
 ### [BONUS] Digital Wireframes & Mockups
+<img src="https://i.ibb.co/m6zNKsc/part1.png" alt="part1" border="0">
+<img src="https://i.ibb.co/jZ4qq62/part2.png" alt="part2" border="0">
 
-### [BONUS] Interactive Prototype
