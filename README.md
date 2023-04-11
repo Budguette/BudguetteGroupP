@@ -25,7 +25,7 @@ Community forum: FinanceMate has a community forum where users can connect with 
 
 Alerts and reminders: FinanceMate sends users alerts and reminders about important financial deadlines, such as tax filing dates and bill payments.
 
-5. [Wireframes](#Wireframes)(https://)
+5. [Wireframes](#Wireframes)(https://ibb.co/WtZGnsy)
 Please see the link above.
 
 ### Description
@@ -130,8 +130,7 @@ large scale app with a clear focus
 
 ## Wireframes
 
-
-(https://docs.google.com/document/d/1Vm5AdZn7keAWoV_mp9jMffz6SDtLl69rOgqgMflnO0o/edit?usp=sharing)
+![Wireframes] (https://ibb.co/WtZGnsy)
 
 ### [BONUS] Digital Wireframes & Mockups
 
