@@ -10,4 +10,14 @@
     <string name="app">Budguette</string>
     <string name="forgot">Forgot password?</string>
     <string name="new_activity">New Activity</string>
+    <string name="camera">Camera</string>
+    <string name="profile">Profile</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="home_fragment">Home fragment</string>
+    <string name="profile_fragment">Profile fragment</string>
+    <string name="budget_fragment">Budget fragment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="articles">Articles</string>
+    <string name="home">Home</string>
+    <string name="post_fragment">Post fragment</string>
 </resources>
