@@ -47,90 +47,75 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical"
             android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
             android:padding="25dp">
 
-    <TextView
-        android:id="@+id/loginText"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/login"
-        android:textAlignment="center"
-        android:textSize="40sp"
-        android:textStyle="bold"
-        android:textColor="@color/cap"
-        app:layout_constraintTop_toBottomOf="@+id/image_view"/>
+            <TextView
+                android:id="@+id/loginText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/login"
+                android:textAlignment="center"
+                android:textColor="@color/cap"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                app:layout_constraintTop_toBottomOf="@+id/image_view" />
 
 
-    <EditText
-        android:id="@+id/username"
-        android:layout_width="match_parent"
-        android:layout_height="65dp"
-        android:ems="10"
-        android:background="@drawable/custom_edit"
-        android:drawableStart="@drawable/baseline_person_24"
-        android:padding="5dp"
-        android:hint="@string/username"
-        android:inputType="textEmailAddress"
-        android:textColor="@android:color/black"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.500"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.320"
-        app:layout_constraintTop_toBottomOf="@+id/loginText" />
-            />
-
-    <EditText
-        android:id="@+id/password"
-        android:layout_width="match_parent"
-        android:layout_height="65dp"
-        android:background="@drawable/custom_edit"
-        android:drawableStart="@drawable/baseline_lock_24"
-        android:drawablePadding="10dp"
-        android:padding="5dp"
-        android:ems="10"
-        android:hint="@string/password"
-        android:inputType="textPassword"
-        android:textColor="@android:color/black"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.500"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.320"
-        app:layout_constraintTop_toBottomOf="@+id/username" />
-
-            <com.google.android.material.button.MaterialButton
-                android:id="@+id/button"
-                android:layout_width="150dp"
-                android:layout_height="50dp"
-                android:text="@string/button"
-                android:textSize="20sp"
-                android:textColor="@android:color/white"
-                android:layout_marginTop="30dp"
-                android:backgroundTint="@color/cap"
-                app:cornerRadius="50dp"
-                android:orientation="vertical"
-                android:layout_gravity="center_horizontal"
+            <EditText
+                android:id="@+id/username"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
                 android:background="@drawable/custom_edit"
-                android:layout_centerHorizontal="true"
+                android:drawableStart="@drawable/baseline_person_24"
+                android:ems="10"
+                android:hint="@string/username"
+                android:inputType="textEmailAddress"
+                android:padding="5dp"
+                android:textColor="@android:color/black"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.500"
                 app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/loginText"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.320"
-                app:layout_constraintTop_toBottomOf="@+id/password" />
+                app:layout_constraintVertical_bias="0.320" />
+            />
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:background="@drawable/custom_edit"
+                android:drawableStart="@drawable/baseline_lock_24"
+                android:drawablePadding="10dp"
+                android:ems="10"
+                android:hint="@string/password"
+                android:inputType="textPassword"
+                android:padding="5dp"
+                android:textColor="@android:color/black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.500"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/username"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.320" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="192dp"
+                android:layout_marginLeft="10dp"
+                android:layout_height="wrap_content"
+                android:text="Button" />
 
             <TextView
                 android:id="@+id/forgot"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/forgot"
                 android:padding="5dp"
+                android:text="@string/forgot"
                 android:textAlignment="center"
                 android:textColor="@color/cap"
                 android:textSize="15sp"
@@ -162,6 +147,7 @@
             android:layout_margin="20dp"
             android:src="@drawable/apple"
             />
+
     </LinearLayout>
 
 
