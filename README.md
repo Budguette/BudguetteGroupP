@@ -130,7 +130,7 @@ large scale app with a clear focus
 
 ## Wireframes
 <img src="https://i.ibb.co/kJpxRfL/IMG-1140.png" alt="IMG-1140" border="0">
-<img src="https://i.ibb.co/M7ZD7JR/IMG-1141.jpg" alt="IMG-1141" border="0">
+<img src="https://i.ibb.co/M7ZD7JR/IMG-1141.png" alt="IMG-1141" border="0">
 
 
 ### [BONUS] Digital Wireframes & Mockups
